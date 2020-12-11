@@ -5,10 +5,10 @@ Proyecto de empresa de transportes usando C/C++
 
 El proyecto consta de 4 partes bien diferenciadas, a saber:
 
-1) Un archivo en el que se registran los datos de los choferes de la empresa.
-2) Un archivo en el que se registran los datos de los viajes de la empresa.
-3) Un archivo para hacer el Backup de la información, y otro para restaurar dicho Backup.
-4) La creación de nuevos archivos en base a reportes requeridos por la empresa.
+1) Un archivo en el que se registran los datos de los choferes de la empresa (definiciones choferes.cpp).
+2) Un archivo en el que se registran los datos de los viajes de la empresa (definiciones viajes.cpp).
+3) Un archivo para hacer el Backup de la información, y otro para restaurar dicho Backup (configuracion.cpp).
+4) La creación de nuevos archivos en base a reportes requeridos por la empresa (reportes.cpp).
 
 Además, se adjuntará un archivo excel en donde se muestran los registros que tiene precargados el sistema, de forma de poder hacer los reportes.
 Obviamente el sistema permitirá agregar mas registros, eliminarlos,etc.
@@ -70,7 +70,7 @@ MENUES
 
 El programa debe contener un Menú Principal con las siguientes opciones:
 
-MENÚ PRINCIPAL
+MENÚ PRINCIPAL (main.cpp)
 --------------
 1) CHOFERES
 2) VIAJES
@@ -82,7 +82,7 @@ MENÚ PRINCIPAL
 
 A su vez, el submenú de choferes debe contener las siguientes opciones:
 
-MENÚ CHOFERES
+MENÚ CHOFERES  (definiciones choferes.cpp)
 ------------------
 1) NUEVO CHOFER
 2) MODIFICAR CHOFER
@@ -161,7 +161,7 @@ MENUES
 
 El submenú de Viajes debe contener las siguientes opciones:
 
-MENÚ VIAJES
+MENÚ VIAJES   (definiciones viajes.cpp)
 ------------------
 1) NUEVO VIAJE
 2) LISTAR VIAJE POR IDVIAJE
@@ -185,7 +185,7 @@ para volver al menú principal.
 
 MENÚ
 
-MENÚ REPORTES
+MENÚ REPORTES   (reportes.cpp)
 ------------------
 1) REPORTE 1
 2) REPORTE 2
@@ -200,7 +200,7 @@ A traves de este menu se podran gestionar los Backups y la Restauracion de archi
 
 El menú de Configuración debe contener las siguientes opciones.
 
-MENÚ CONFIGURACION
+MENÚ CONFIGURACION    (configuracion.cpp)
 ------------------
 1) REALIZAR BACKUP
 2) RESTAURAR BACKUP

@@ -19,22 +19,35 @@ CHOFERES
 
 Para los choferes se debera definir un archivo con los campos que se describen a continuación:
 
-DNI 
+DNI: 
 Cadena de 10 caracteres
 
-Apellido 
+Apellido: 
 Cadena de 50 caracteres
 
-Nombre 
+Nombre: 
 Cadena de 50 caracteres
 
-Fecha de ingreso Fecha
-CUIT Cadena de 20 caracteres
-Tipo de registro Número entero
-Fecha de vencimiento del registro Fecha
-Teléfono Cadena de 15 caracteres
-Propietario de auto Bool
-Estado Bool
+Fecha de ingreso:
+Fecha
+
+CUIT:
+Cadena de 20 caracteres
+
+Tipo de registro:
+Número entero
+
+Fecha de vencimiento del registro:
+Fecha
+
+Teléfono:
+Cadena de 15 caracteres
+
+Propietario de auto:
+Bool
+
+Estado:
+Bool
 
 RESTRICCIONES
 

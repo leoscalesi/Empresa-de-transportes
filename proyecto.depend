@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1607690736 source:c:\users\pc\desktop\segundo cuatri utn\labo computacion 2\proyecto primer parcial lab2\proyecto\proyecto\definiciones choferes.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	<ctime>
+	"declaraciones.h"
+	"rlutil.h"
+
+1607621171 c:\users\pc\desktop\segundo cuatri utn\labo computacion 2\proyecto primer parcial lab2\proyecto\proyecto\declaraciones.h
+
+1607619597 source:c:\users\pc\desktop\segundo cuatri utn\labo computacion 2\proyecto primer parcial lab2\proyecto\proyecto\main.cpp
+	<iostream>
+	<cstdlib>
+	"declaraciones.h"
+	"rlutil.h"
+
+1600366801 c:\users\pc\desktop\segundo cuatri utn\labo computacion 2\proyecto primer parcial lab2\proyecto\proyecto\declaraciones viajes.h
+
+1607636067 source:c:\users\pc\desktop\segundo cuatri utn\labo computacion 2\proyecto primer parcial lab2\proyecto\proyecto\definiciones viajes.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	<ctime>
+	"declaraciones.h"
+	"rlutil.h"
+
+1601563043 source:c:\users\pc\desktop\segundo cuatri utn\labo computacion 2\proyecto primer parcial lab2\proyecto\proyecto\reportes.cpp
+	<iostream>
+	<cstdlib>
+	"declaraciones.h"
+	"rlutil.h"
+
+1601482305 source:c:\users\pc\desktop\segundo cuatri utn\labo computacion 2\proyecto primer parcial lab2\proyecto\proyecto\configuracion.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	"declaraciones.h"
+	"rlutil.h"
+
+1600542855 c:\users\pc\desktop\segundo cuatri utn\labo computacion 2\proyecto primer parcial lab2\proyecto\proyecto\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+

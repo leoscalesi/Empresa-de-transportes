@@ -10,6 +10,8 @@ El proyecto consta de 4 partes bien diferenciadas, a saber:
 3) Un archivo para hacer el Backup de la informacion, y otro para restaurar dicho Backup.
 4) La creacion de nuevos archivos en base a reportes requeridos por la empresa.
 
+Ademas, se adjuntara un archivo excel en donde se muestran los registros que tiene precargados el sistema, de forma de poder hacr los reportes.
+Obviamente el sistema permitira agregar mas registros, eliminarlos,etc.
 
 REQUERIMIENTOS Y CONSTRUCCION DEL PROYECTO
 
@@ -17,10 +19,15 @@ CHOFERES
 
 Para los choferes se debera definir un archivo con los campos que se describen a continuación:
 
-Campo Tipo
-DNI Cadena de 10 caracteres
-Apellido Cadena de 50 caracteres
-Nombre Cadena de 50 caracteres
+DNI 
+Cadena de 10 caracteres
+
+Apellido 
+Cadena de 50 caracteres
+
+Nombre 
+Cadena de 50 caracteres
+
 Fecha de ingreso Fecha
 CUIT Cadena de 20 caracteres
 Tipo de registro Número entero

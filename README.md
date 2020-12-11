@@ -1,24 +1,24 @@
 # Empresa-de-transportes
 Proyecto de empresa de transportes usando C/C++
 
-Este es mi segundo proyecto usando C/C++. En esta ocasion, trabaje realizando ABM de archivos, utilizando structs y asignacion dinamica de memoria.
+Éste es mi segundo proyecto usando C/C++. En esta ocasión, trabajé realizando ABM de archivos, utilizando structs y asignación dinámica de memoria.
 
 El proyecto consta de 4 partes bien diferenciadas, a saber:
 
 1) Un archivo en el que se registran los datos de los choferes de la empresa.
 2) Un archivo en el que se registran los datos de los viajes de la empresa.
-3) Un archivo para hacer el Backup de la informacion, y otro para restaurar dicho Backup.
-4) La creacion de nuevos archivos en base a reportes requeridos por la empresa.
+3) Un archivo para hacer el Backup de la información, y otro para restaurar dicho Backup.
+4) La creación de nuevos archivos en base a reportes requeridos por la empresa.
 
-Ademas, se adjuntara un archivo excel en donde se muestran los registros que tiene precargados el sistema, de forma de poder hacr los reportes.
-Obviamente el sistema permitira agregar mas registros, eliminarlos,etc.
+Además, se adjuntará un archivo excel en donde se muestran los registros que tiene precargados el sistema, de forma de poder hacer los reportes.
+Obviamente el sistema permitirá agregar mas registros, eliminarlos,etc.
 
 REQUERIMIENTOS Y CONSTRUCCION DEL PROYECTO
 
 -----------------------------------------------------------------------------------------------
 CHOFERES
 
-Para los choferes se debera definir un archivo con los campos que se describen a continuación:
+Para los choferes se definió un archivo con los campos que se describen a continuación:
 
 DNI: 
 Cadena de 10 caracteres

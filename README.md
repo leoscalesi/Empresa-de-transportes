@@ -27,7 +27,7 @@ Teléfono Cadena de 15 caracteres
 Propietario de auto Bool
 Estado Bool
 
-Restricciones
+RESTRICCIONES
 
 - El DNI no debe aceptar una cadena vacía.
 - El DNI debe ser un valor único. No puede repetirse en el archivo de choferes.
@@ -40,7 +40,7 @@ Restricciones
 - La fecha de vencimiento del registro debe ser mayor a la fecha del sistema.
 
 
-Menúes
+MENUES
 
 El programa debe contener un Menú Principal con las siguientes opciones:
 
@@ -67,7 +67,8 @@ MENÚ CHOFERES
 0) VOLVER AL MENÚ PRINCIPAL
 
 
-Aclaraciones:
+ACLARACIONES:
+
 - La opción Nuevo Chofer deberá permitir ingresar de a un registro de Chofer nuevo por vez.
 - La opción Modificar Chofer deberá solicitar el DNI de Chofer y permitir modificar la fecha
 de vencimiento de la licencia.

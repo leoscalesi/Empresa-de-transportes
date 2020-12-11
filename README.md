@@ -125,3 +125,64 @@ MENÚ VIAJES
 0) VOLVER AL MENÚ PRINCIPAL
 
 
+ACLARACIONES:
+
+- La opción Nuevo Viaje deberá permitir ingresar de a un registro de Viaje nuevo por vez.
+- La opción Listar Viaje por IDViaje deberá solicitar el IDViaje y listar todos los campos del
+registro si éste existe.
+- La opción Listar todos los Viajes deberá listar todos los campos de todos los registros de
+Viajes.
+- La opción Eliminar Viaje deberá solicitar el IDViaje y realizar la baja lógica.
+
+En el menú de Reportes se colocarán tres reportes requeridos por la empresa, comentados directo sobre el codigo en el archivo reportes.cpp. Debe tener una opción
+para volver al menú principal.
+
+MENÚ
+
+MENÚ REPORTES
+------------------
+1) REPORTE 1
+2) REPORTE 2
+3) REPORTE 3
+--------------------------------
+0) VOLVER AL MENÚ PRINCIPAL
+
+
+CONFIGURACION
+
+A traves de este menu se podran gestionar los Backups y la Restauracion de archivos.
+
+El menú de Configuración debe contener las siguientes opciones.
+
+MENÚ CONFIGURACION
+------------------
+1) REALIZAR BACKUP
+2) RESTAURAR BACKUP
+3) CARGAR DATOS DE INICIO
+--------------------------------
+0) VOLVER AL MENÚ PRINCIPAL
+
+
+ACLARACIONES:
+
+- La opción Realizar Backup, previa confirmación del usuario, deberá generar archivos de
+copia de seguridad (con extensión bkp) de cada uno de los archivos de datos del sistema.
+Los archivos de backup deberán contener los mismos registros que los archivos de datos
+incluyendo los registros eliminados en baja lógica.
+choferes.dat → choferes.bkp
+viajes.dat → viajes.bkp
+
+- La opción Restaurar Backup, previa confirmación del usuario, deberá restaurar los archivos
+de backup sobre los archivos de datos del sistema. Este proceso eliminará todos los datos
+de los archivos de datos con la información que previamente se haya respaldado en los
+archivos de copia de seguridad.
+choferes.bkp → choferes.dat
+viajes.bkp → viajes.dat
+
+
+RESTRICCION GENERAL DEL SISTEMA
+
+En todos los casos, un registro que se encuentre en baja lógica deberá ser ignorado por el sistema.
+Por ejemplo, un chofer dado de baja no puede realizar un viaje.
+
+

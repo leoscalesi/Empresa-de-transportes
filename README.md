@@ -10,7 +10,7 @@ El proyecto consta de 4 partes bien diferenciadas, a saber:
 3) Un archivo para hacer el Backup de la información, y otro para restaurar dicho Backup (configuracion.cpp).
 4) La creación de nuevos archivos en base a reportes requeridos por la empresa (reportes.cpp).
 
-Además, se adjuntará un archivo excel en donde se muestran los registros que tiene precargados el sistema, de forma de poder hacer los reportes.
+Además, se adjuntará un archivo excel (Datos iniciales empresa transporte.xlsx) en donde se muestran los registros que tiene precargados el sistema, de forma de poder hacer los reportes.
 Obviamente el sistema permitirá agregar mas registros, eliminarlos,etc.
 
 REQUERIMIENTOS Y CONSTRUCCION DEL PROYECTO

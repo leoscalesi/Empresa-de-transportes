@@ -15,6 +15,7 @@ Obviamente el sistema permitira agregar mas registros, eliminarlos,etc.
 
 REQUERIMIENTOS Y CONSTRUCCION DEL PROYECTO
 
+-----------------------------------------------------------------------------------------------
 CHOFERES
 
 Para los choferes se debera definir un archivo con los campos que se describen a continuación:
@@ -48,6 +49,9 @@ Bool
 
 Estado:
 Bool
+
+
+-----------------------------------------------------------------------------------------------
 
 RESTRICCIONES
 
@@ -102,22 +106,44 @@ de Chofer.
 Página
 
 
+
+-----------------------------------------------------------------------------------------------
 VIAJES
 
 Para gestionar los viajes se definió un archivo con los campos que se describen a continuación:
 
-Campo Tipo
-IDViaje Número autonumérico
-DNI Chofer Cadena de 10 caracteres
-IDCliente Número entero
-Fecha del viaje Fecha
-Hora salida Número entero
-Kilometraje Float
-Importe Float
-Patente Cadena de 10 caracteres
-Calificación Número entero
-Estado Bool
 
+IDViaje:
+Número autonumérico
+
+DNI Chofer:
+Cadena de 10 caracteres
+
+IDCliente:
+Número entero
+
+Fecha del viaje:
+Fecha
+
+Hora salida:
+Número entero
+
+Kilometraje:
+Float
+
+Importe:
+Float
+
+Patente:
+Cadena de 10 caracteres
+
+Calificación:
+Número entero
+
+Estado:
+Bool
+
+-----------------------------------------------------------------------------------------------
 
 RESTRICCIONES
 

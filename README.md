@@ -13,6 +13,8 @@ El proyecto consta de 4 partes bien diferenciadas, a saber:
 
 REQUERIMIENTOS Y CONSTRUCCION DEL PROYECTO
 
+CHOFERES
+
 Para los choferes se debera definir un archivo con los campos que se describen a continuación:
 
 Campo Tipo
@@ -78,3 +80,48 @@ del registro si este existe.
 de Chofer.
 - La opción Eliminar Chofer deberá solicitar el DNI de Chofer y realizar la baja lógica.
 Página
+
+
+VIAJES
+
+Para gestionar los viajes se definió un archivo con los campos que se describen a continuación:
+
+Campo Tipo
+IDViaje Número autonumérico
+DNI Chofer Cadena de 10 caracteres
+IDCliente Número entero
+Fecha del viaje Fecha
+Hora salida Número entero
+Kilometraje Float
+Importe Float
+Patente Cadena de 10 caracteres
+Calificación Número entero
+Estado Bool
+
+
+RESTRICCIONES
+
+- El DNI debe existir en el archivo de Choferes.
+- La Fecha del viaje debe ser una fecha anterior o igual a la fecha del sistema.
+- La Hora de salida debe ser un número entre 0 y 23.
+- El Kilometraje debe ser un número mayor a 0.
+- El Importe debe ser un número mayor a 0.
+- La Patente no puede contener una cadena vacía.
+- La Calificación del viaje debe ser un número entero entre 0 y 5. Es el puntaje que el usuario
+le pone al chofer.
+
+
+MENUES
+
+El submenú de Viajes debe contener las siguientes opciones:
+
+MENÚ VIAJES
+------------------
+1) NUEVO VIAJE
+2) LISTAR VIAJE POR IDVIAJE
+3) LISTAR TODOS LOS VIAJES
+4) ELIMINAR VIAJE
+--------------------------------
+0) VOLVER AL MENÚ PRINCIPAL
+
+
